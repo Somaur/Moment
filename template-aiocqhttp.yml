@@ -10,8 +10,8 @@ platform:
     aiocqhttp
 
 aiocqhttp:
-    api-root:
-        cqhttp host+port  # 若使用反向websocket, 无需此项. 否则若使用http, 填写cqhttp的host+post
+    api-root:      # 若使用反向websocket, 无需此项. 否则若使用http, 填写cqhttp的host+post
+        cqhttp host+port  
     host:          # aiocqhttp server 的地址
         your-host
     port:          # aiocqhttp server 的端口号
@@ -22,7 +22,10 @@ aiocqhttp:
         - root1
         - root2
     working-group: # 工作的群聊
-        your-working-qq-group
+        755325332
+        128855532
+        982318290  # RBQ测试
+        693460912  # 段小群
 
 plugins: # 想要开启的插件
     - Help
