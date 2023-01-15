@@ -19,3 +19,4 @@ jLock_venv/
 *.txt
 nohup.out
 jLock.session
+template*.yml
